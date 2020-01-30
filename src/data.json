@@ -1,0 +1,67 @@
+{
+    "title":"Hello i am iman!",
+    "subtitle":"Full Stack Dev | Open-Source",
+    "links":{
+        "github":"https://github.com/imansadeghe",
+        "linkedin":"https://www.linkedin.com/in/iman-sadeghe-4b9868158",
+        "instagram":"https://www.instagram.com/imansadeghe/?hl=en",
+        "facebook":"https://www.facebook.com/profile.php?id=100007706418738"
+    },
+    "sections":[
+        {
+            "title":"about",
+            "items":[
+                {"type":"p",
+                "content":"یادگیری حفظ کردن توهمات دیگران نیست  "},
+                {"type":"p",
+                 "content":"یادگیری چیزی است که هر لحظه اتفاق می افتد در درون تو "},
+                {"type":"p",
+                "content":" "},
+                {"type":"p",
+                 "content":""}
+            ]
+        },
+        {
+            "title":"skill",
+            "items":[
+                {"type":"card",
+                "content":{
+                    "title":"Html",
+                    "image":"images/html.png"    
+                   
+                }},
+                {"type":"card",
+                    "content":{
+                        "title":"Css",
+                        "image":"images/css.jpg"
+                        
+                    }},
+                {"type":"card",
+                        "content":{
+                            "title":"Java Script",
+                            "image":"./images/JavaScript.jpg"
+                            
+                }},
+          
+                {"type":"card",
+                    "content":{
+                        "title":"Django",
+                        "image":"./images/Django.webp"
+                        
+                    }}, {"type":"card",
+                        "content":{
+                            "title":"Bootstrap",
+                            "image":"./images/Bootstrap.jpg"
+                            
+                        }},  {"type":"card",
+                            "content":{
+                                "title":"React",
+                                "image":"./images/react.png"
+                                
+                            }}
+            ]
+        }
+    ],
+    "icons":{
+        "down":"/images/down.png"}
+}
