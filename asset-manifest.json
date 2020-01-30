@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/yaghout/static/css/main.1144373a.chunk.css",
+    "main.js": "/yaghout/static/js/main.b17289d6.chunk.js",
+    "main.js.map": "/yaghout/static/js/main.b17289d6.chunk.js.map",
+    "runtime-main.js": "/yaghout/static/js/runtime-main.14f6398f.js",
+    "runtime-main.js.map": "/yaghout/static/js/runtime-main.14f6398f.js.map",
+    "static/js/2.6219a48b.chunk.js": "/yaghout/static/js/2.6219a48b.chunk.js",
+    "static/js/2.6219a48b.chunk.js.map": "/yaghout/static/js/2.6219a48b.chunk.js.map",
+    "index.html": "/yaghout/index.html",
+    "precache-manifest.d28dda4dea4cc0605157ebd6f1c8bd59.js": "/yaghout/precache-manifest.d28dda4dea4cc0605157ebd6f1c8bd59.js",
+    "service-worker.js": "/yaghout/service-worker.js",
+    "static/css/main.1144373a.chunk.css.map": "/yaghout/static/css/main.1144373a.chunk.css.map",
+    "static/js/2.6219a48b.chunk.js.LICENSE": "/yaghout/static/js/2.6219a48b.chunk.js.LICENSE",
+    "static/media/App.css": "/yaghout/static/media/danstevis.e8354ea8.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14f6398f.js",
+    "static/js/2.6219a48b.chunk.js",
+    "static/css/main.1144373a.chunk.css",
+    "static/js/main.b17289d6.chunk.js"
+  ]
+}
