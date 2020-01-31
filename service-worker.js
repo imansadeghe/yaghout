@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/yaghout/precache-manifest.d28dda4dea4cc0605157ebd6f1c8bd59.js"
+  "/yaghout/precache-manifest.5d872ff155bf391b6079cafec235c5eb.js"
 );
 
 self.addEventListener('message', (event) => {
