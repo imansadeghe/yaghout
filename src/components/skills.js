@@ -3,7 +3,14 @@ import Fullpage from "./fullpage"
 import data from "../data.json"
 import "./fullpage.css"
 import { findByLabelText } from "@testing-library/react"
+import "./rainy.css"
+import * as Scroll from 'react-scroll';
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+
 export default class Skills extends Component{
+
+    
     render(){
         return(
             <div style={{backgroundColor:"brown",maxWidth:"100vw"}}>
@@ -19,7 +26,12 @@ export default class Skills extends Component{
                        
                         )
                     })}
-                </div></center></div>
+                </div></center>
+                <Element name="test1" className="element">
+          test 1 
+        </Element>
+
+                </div>
            
           
         )

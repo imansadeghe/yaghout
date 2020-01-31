@@ -11,14 +11,35 @@
 }
 
 .divpage{
-background-color: lightblue;
-width:80vw;
-height:80 vh;
+
+width:20vw;
+margin-top:10vh;
 color:red;
+
 }
 
 .skill{
    display:flex;
    align-content:stretch;
    
+}
+.nav{
+background-color:gray;
+font-size:20px;
+position:fixed;
+top:3vh;
+right:1vw;
+
+}
+.nav a {
+    padding:1vw;
+    background-color:red;
+    margin:1vw;
+}
+.nav2{
+    position:fixed;
+    font-size:20px;
+    left:1vw;
+    top:3vh;
+    color:orange
 }
