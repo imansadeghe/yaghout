@@ -1,0 +1,85 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	/*overflow: hidden;*/
+	/*animation: day2night 15s linear infinite;*/
+	/* background: url(mashhad-min.jpg); */
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.snow {
+	height: 100vh;
+	background-image:url("rain2.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	animation: rain 0.3S linear infinite;
+	animation-direction:reverse;
+	
+}
+.rain {
+	height: 100vh;
+	background-image:url("snow2.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	animation: rain 5S linear infinite;
+	animation-direction:reverse;
+	
+}
+.attention{
+	animation: fire 0.5s linear infinite;
+	animation-direction: alternate-reverse;
+}
+.attention:hover{
+ animation:none;
+ padding:2%;
+ background-color:gray;
+}
+
+@keyframes rain {
+	0% {
+		background-position: 0% 0%;
+		
+	}
+	100% {
+		background-position: 20% 100%;
+		
+	}
+}
+@keyframes fire {
+	0% {padding:2%;
+
+		
+}
+	/* 10% {background-size:29% 29%}
+	20% {background-size:39% 39%}
+	50% {background-size:49% 49%} */
+	100%{padding:2.5%;
+	}
+}
+@keyframes lighting {
+	0% {
+		opacity: 0;
+	}
+	10% {
+		opacity: 0.1;
+	}
+	11% {
+		opacity: 0.2;
+	}
+	14% {
+		opacity: 0.3;
+	}
+	20% {
+		opacity: 0.4;
+	}
+	21% {
+		opacity: 0.5;
+	}
+	24% {
+		opacity: 0.6;
+	}
+	104% {
+		opacity: 0.7;
+	}
+}

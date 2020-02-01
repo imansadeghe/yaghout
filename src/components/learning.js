@@ -14,9 +14,7 @@ class Learning extends Component{
     }
     render(){
         return(
-           <div onMouseOver={()=>{this.changeColor()}}
-                onMouseLeave={()=>{this.changeColor()}}        
-                style={{backgroundColor:this.state.color}}>
+           <div >
                <Fullpage >
         <h3 className="divpage">{data.sections[0].items.map(num=>{
         return <p>{num.content}</p>

@@ -10,16 +10,21 @@ import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } 
 
 export default class Skills extends Component{
 
-    
+   
+
     render(){
         return(
-            <div style={{backgroundColor:"brown",maxWidth:"100vw"}}>
+            <div style={{backgroundColor:"brown",maxWidth:"100vw",borderRadius:"50%"}}>
                  <h1>{data.sections[1].title}</h1>
                  <center>
+                 <Element name="test2" className="element">
+          
+        </Element>
+
                 <div className="skill" style={{maxWidth:"59vw"}} >
                     {data.sections[1].items.map(sk =>{
                         return(
-                            <section style={{width:"20vw"}}>
+                            <section style={{width:"20vw",margin:"1%"}}>
                             <img style={{width:"100% "}} src={sk.content.image}/>
                             <h1>{sk.content.title}</h1>
                             </section>
@@ -28,7 +33,7 @@ export default class Skills extends Component{
                     })}
                 </div></center>
                 <Element name="test1" className="element">
-          test 1 
+         
         </Element>
 
                 </div>
